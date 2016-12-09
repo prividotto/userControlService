@@ -1,0 +1,379 @@
+2016-12-05 20:07:57,383 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:08:01,935 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:08:01,936 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:08:01,937 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:08:01,937 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:08:17,213 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:08:17,252 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:08:17,255 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:08:17,291 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:21,184 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:21,193 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:21,195 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:21,200 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:29,870 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:29,891 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:29,893 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:29,903 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:48,363 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:09:50,657 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:09:52,584 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:09:52,591 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:09:52,598 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:09:52,604 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:09:52,802 [Worker-37] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure userControlTest
+org.eclipse.m2e.wtp.MarkedException: Unable to configure userControlTest
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-12-05 20:09:53,068 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:09:53,079 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-12-05 20:09:53,362 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:53,462 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:53,483 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:09:53,510 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:09:53,511 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:09:53,512 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:09:53,539 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:11:22,961 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:11:24,201 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/javaee-web-api/7.0/javaee-web-api-7.0.pom
+2016-12-05 20:11:25,219 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/javaee-web-api/7.0/javaee-web-api-7.0.pom
+2016-12-05 20:11:25,738 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/javaee-web-api/7.0/javaee-web-api-7.0.pom
+2016-12-05 20:11:26,218 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.pom
+2016-12-05 20:11:26,438 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.pom
+2016-12-05 20:11:26,734 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.pom
+2016-12-05 20:11:30,172 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-12-05 20:11:30,384 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-12-05 20:11:30,867 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-12-05 20:11:32,242 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+2016-12-05 20:11:33,228 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-12-05 20:11:34,220 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-12-05 20:11:34,453 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+2016-12-05 20:11:52,512 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+2016-12-05 20:11:52,730 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-12-05 20:12:37,989 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-12-05 20:12:38,453 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-12-05 20:12:39,319 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-12-05 20:12:48,060 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:12:48,094 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:12:48,102 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:12:48,118 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:12:48,124 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:12:48,125 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:12:48,131 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:12:48,492 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:12:52,659 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:12:56,685 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:12:56,686 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:12:56,686 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:12:56,692 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:12:58,652 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:12:58,732 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2016-12-05 20:13:06,099 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:13:06,138 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:13:06,163 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:13:06,208 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:13:06,208 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:13:06,217 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:13:06,229 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:14:37,068 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:14:37,079 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:14:37,080 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:14:37,087 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:15:13,958 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:15:16,017 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:15:19,743 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:15:19,744 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:15:19,749 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:15:19,753 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:15:23,317 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:15:23,326 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2016-12-05 20:15:25,050 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:15:25,092 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:15:25,170 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:15:25,278 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:15:25,303 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:15:25,303 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:15:25,319 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:15:51,254 [Worker-40] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:15:55,844 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:15:55,852 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:15:55,858 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:15:55,871 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:15:55,876 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:15:55,876 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:15:55,884 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:16:06,989 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:16:09,094 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:16:14,109 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:16:14,115 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:16:14,116 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:16:14,122 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:16:16,249 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:16:16,265 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2016-12-05 20:16:19,969 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:16:19,980 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:16:19,986 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:16:19,996 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:16:19,997 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:16:19,997 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:16:20,000 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:18:26,653 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:18:26,663 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:18:26,665 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:18:26,678 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:19:14,946 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:19:15,026 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:19:15,094 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:19:15,110 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:19:24,640 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:19:26,957 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:19:31,245 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:19:31,245 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:19:31,252 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:19:31,257 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:19:32,267 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:19:32,276 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2016-12-05 20:19:33,873 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:19:33,885 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:19:33,927 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:19:33,935 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:19:33,941 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:19:33,942 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:19:33,947 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:20:22,118 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:20:22,778 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:20:25,054 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:20:25,059 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:20:25,066 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:20:25,071 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:20:26,920 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:20:26,951 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-12-05 20:20:27,539 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:20:27,588 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:20:27,608 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:20:27,654 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:20:27,656 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:20:27,672 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:20:27,682 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:22:43,876 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:22:46,122 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.tads:userControlTest:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\userControlTest\pom.xml.
+2016-12-05 20:22:50,096 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/main/java
+2016-12-05 20:22:50,096 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/main/resources
+2016-12-05 20:22:50,097 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userControlTest/src/test/java
+2016-12-05 20:22:50,097 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userControlTest/src/test/resources
+2016-12-05 20:22:52,552 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for userControlTest
+2016-12-05 20:22:52,559 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2016-12-05 20:22:53,560 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:22:53,631 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:22:53,639 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:22:53,650 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:22:53,659 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of userControlTest
+2016-12-05 20:22:53,659 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for userControlTest
+2016-12-05 20:22:53,670 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:24:00,505 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.prova:UserControl:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\UserControl\pom.xml.
+2016-12-05 20:24:00,814 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/main/java
+2016-12-05 20:24:00,815 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/main/resources
+2016-12-05 20:24:00,816 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/test/java
+2016-12-05 20:24:00,816 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/test/resources
+2016-12-05 20:24:01,691 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:24:01,699 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:24:01,705 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:24:01,712 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:24:02,772 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:24:02,783 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:24:02,790 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:24:02,804 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:25:31,730 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:25:31,750 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:25:31,755 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:25:31,765 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:25:58,507 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:26:01,999 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.prova:UserControl:0.0.1-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\UserControl\pom.xml.
+2016-12-05 20:26:05,073 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/main/java
+2016-12-05 20:26:05,078 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/main/resources
+2016-12-05 20:26:05,084 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/test/java
+2016-12-05 20:26:05,085 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/test/resources
+2016-12-05 20:26:05,548 [Worker-51] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure UserControl
+org.eclipse.m2e.wtp.MarkedException: Unable to configure UserControl
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-12-05 20:26:05,664 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UserControl
+2016-12-05 20:26:05,672 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2016-12-05 20:26:05,942 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:26:06,029 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:26:06,079 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:26:06,124 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-05 20:26:06,125 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UserControl
+2016-12-05 20:26:06,148 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UserControl
+2016-12-05 20:26:06,152 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-05 20:28:38,466 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:28:40,831 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\UserControl\pom.xml.
+2016-12-05 20:28:45,243 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/main/java
+2016-12-05 20:28:45,244 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/main/resources
+2016-12-05 20:28:45,244 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/test/java
+2016-12-05 20:28:45,245 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/test/resources
+2016-12-05 20:28:45,474 [Worker-52] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure UserControl
+org.eclipse.m2e.wtp.MarkedException: Unable to configure UserControl
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-12-05 20:28:48,591 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UserControl
+2016-12-05 20:28:48,618 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2016-12-05 20:32:28,003 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:32:31,028 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\UserControl\pom.xml.
+2016-12-05 20:32:33,486 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/main/java
+2016-12-05 20:32:33,499 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/main/resources
+2016-12-05 20:32:33,515 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/test/java
+2016-12-05 20:32:33,525 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/test/resources
+2016-12-05 20:32:33,644 [Worker-49] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure UserControl
+org.eclipse.m2e.wtp.MarkedException: Unable to configure UserControl
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-12-05 20:32:34,326 [Worker-49] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UserControl
+2016-12-05 20:32:34,331 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2016-12-05 20:33:16,290 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-12-05 20:33:16,899 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.userControl:userControl:1.0.0-SNAPSHOT @ C:\Users\Priscila Vidotto\workspace\UserControlService\UserControl\pom.xml.
+2016-12-05 20:33:18,706 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/main/java
+2016-12-05 20:33:18,721 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/main/resources
+2016-12-05 20:33:18,733 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserControl/src/test/java
+2016-12-05 20:33:18,733 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserControl/src/test/resources
+2016-12-05 20:33:18,866 [Worker-52] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure UserControl
+org.eclipse.m2e.wtp.MarkedException: Unable to configure UserControl
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2016-12-05 20:33:19,581 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UserControl
+2016-12-05 20:33:19,600 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
